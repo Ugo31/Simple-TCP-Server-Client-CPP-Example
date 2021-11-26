@@ -65,7 +65,6 @@ int main(int argc, char *argv[])
         if(!strcmp(msg, "exit"))
         {
             cout << "Server has quit the session" << endl;
-            break;
         }
         cout << "Server: " << msg << endl;
     }
